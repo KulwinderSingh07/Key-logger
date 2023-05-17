@@ -12,7 +12,6 @@ def fprint(str):
 def on_press(key):
     global keys,count
     if(key=="Key.backspace" and len(keys)!=0):
-        # key="Key"
         keys.pop()
     else:
       keys.append(key)
